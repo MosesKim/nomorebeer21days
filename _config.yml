@@ -1,1 +1,10 @@
+#theme: jekyll-theme-cayman
+title: NoMoreBeer21Days
+description: Stop drinking beer for 21 days. Good Luck to all.
+show_github: false
+show_downloads: false
+google_analytics:
 theme: jekyll-theme-cayman
+
+github:
+  is_project_page: false
