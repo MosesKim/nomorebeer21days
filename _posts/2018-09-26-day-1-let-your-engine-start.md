@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Day #1 (20180926, 수) - 시동을 걸자"
-categories: [실험]
+date: 2018-09-26 21:00:00
+published: true
 ---
 
 ### 아침
