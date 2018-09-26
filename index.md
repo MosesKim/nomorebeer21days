@@ -27,7 +27,11 @@ NoMoreBeer21Days 프로젝트는 나의 건강을 위한 작은 프로젝트이�
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> {{ site.url }}, {{ page.url }}, {{ post.url }}
+      {% if site.use_constant_page_name %}
+        <a href="{{ site.url }}{{ site.constant_page_name }}{{ post.url }}">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

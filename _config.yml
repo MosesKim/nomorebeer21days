@@ -6,5 +6,8 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 
+use_constant_page_name: true
+constant_page_name: /nomorebeer21days
+
 github:
   is_project_page: false
